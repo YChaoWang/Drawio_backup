@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="第 1 页" id="wdlJEJVCv6MkUgaYpFra">
-    <mxGraphModel dx="2613" dy="1947" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2060" dy="1560" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,7 +128,7 @@
         <mxCell id="oqBidD13vxVgjalaLg6l-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="639" y="1044.25" width="298" height="181" as="geometry" />
         </mxCell>
-        <mxCell id="oqBidD13vxVgjalaLg6l-47" value="1. 評估競品資訊是否符合數量要求&lt;div&gt;&lt;br&gt;&lt;div&gt;2. 評估競品資訊是否充足&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. Next Action Query( Query 太多？ 可能寫成dictionary llm 就會知道要做多次搜索)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. 結合上次要求搜索的Query 跟 Post-summary 評估資訊是否正確且充足&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="oqBidD13vxVgjalaLg6l-47" value="1. 評估競品資訊是否符合數量要求&lt;div&gt;&lt;br&gt;&lt;div&gt;2. 評估競品資訊是否充足&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. Next Action Query( Query 太多？ 可能寫成dictionary llm 就會知道要做多次搜索)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. 結合上次要求搜索的Query 跟 Post-summary 評估資訊是否正確且充足&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="642" y="1059.5" width="295" height="150.5" as="geometry" />
         </mxCell>
         <mxCell id="oqBidD13vxVgjalaLg6l-48" value="Evaluation Task" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
