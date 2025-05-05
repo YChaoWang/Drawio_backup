@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="第 1 页" id="wdlJEJVCv6MkUgaYpFra">
-    <mxGraphModel dx="2334" dy="1595" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1035" dy="1263" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,7 +128,7 @@
         <mxCell id="oqBidD13vxVgjalaLg6l-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="639" y="1044.25" width="298" height="181" as="geometry" />
         </mxCell>
-        <mxCell id="oqBidD13vxVgjalaLg6l-47" value="1. 評估競品資訊是否符合數量要求&lt;div&gt;&lt;br&gt;&lt;div&gt;2. 評估競品資訊是否充足&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. Next Action Query( Query 太多？ 可能寫成dictionary llm 就會知道要做多次搜索)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. 結合上次要求搜索的Query 跟 Post-summary 評估資訊是否正確且充足&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="oqBidD13vxVgjalaLg6l-47" value="1. 評估競品資訊是否符合數量要求&lt;div&gt;&lt;br&gt;&lt;div&gt;2. 評估競品資訊是否充足（必要欄位是否都不為None）&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. Next Action Query( Query 太多？ 可能寫成dictionary llm 就會知道要做多次搜索)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;4. 結合上次要求搜索的Query 跟 Post-summary 評估資訊是否正確且充足&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="642" y="1059.5" width="295" height="150.5" as="geometry" />
         </mxCell>
         <mxCell id="oqBidD13vxVgjalaLg6l-48" value="Evaluation Task" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
@@ -200,14 +200,44 @@
         <mxCell id="R5jwCQ2DgRrpfxkCED6p-2" value="不論如何 一定會存入Memory" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="859" y="795" width="167" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WVSvmHoWS9mjaTe2bRBU-1" value="presummary_result" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="44" y="453" width="140" height="30" as="geometry" />
+        <mxCell id="WVSvmHoWS9mjaTe2bRBU-1" value="presummary_result" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="443" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WVSvmHoWS9mjaTe2bRBU-2" value="product_info" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="425" y="297" width="140" height="30" as="geometry" />
+        <mxCell id="WVSvmHoWS9mjaTe2bRBU-2" value="product_info" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#e51400;strokeColor=#B20000;fillStyle=auto;dashed=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="462" y="299" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WVSvmHoWS9mjaTe2bRBU-3" value="evaluation_result" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="41" y="481" width="140" height="30" as="geometry" />
+          <mxGeometry x="684" y="819" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVSvmHoWS9mjaTe2bRBU-4" value="presummary_result" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-229" y="808" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVSvmHoWS9mjaTe2bRBU-5" value="postsummary_result" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="607" y="855" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVSvmHoWS9mjaTe2bRBU-6" value="postsummary_result" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#6d8764;strokeColor=#3A5431;dashed=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="420" y="988" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVSvmHoWS9mjaTe2bRBU-7" value="presummary_result" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#6d8764;strokeColor=#3A5431;dashed=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="462" y="396" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVSvmHoWS9mjaTe2bRBU-8" value="next_query" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#6d8764;strokeColor=#3A5431;dashed=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="940" y="853" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVSvmHoWS9mjaTe2bRBU-9" value="next_query" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#e51400;strokeColor=#B20000;dashed=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-232" y="995" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVSvmHoWS9mjaTe2bRBU-10" value="Evaluation Agent 會拿上一次的next_query跟現在的postsummary_result" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="327" y="1238" width="264" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVSvmHoWS9mjaTe2bRBU-11" value="postsummary_result" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="891" y="653" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVSvmHoWS9mjaTe2bRBU-12" value="next_query" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#e51400;strokeColor=#B20000;dashed=1;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1002" y="1053" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WVSvmHoWS9mjaTe2bRBU-13" value="State" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1002" y="1119" width="158" height="65.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
