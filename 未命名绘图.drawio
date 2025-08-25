@@ -1,9 +1,32 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="第 1 页" id="IIeuhiTx5am88Ce6QUmT">
-    <mxGraphModel>
+    <mxGraphModel dx="2084" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="a0exR-PvPegkOZugwnQl-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3.5" y="20" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="a0exR-PvPegkOZugwnQl-11" value="(Training_Company_User.csv, Training_Company_Item.csv, Training_Company_ItemInteraction.csv)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="216.5" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a0exR-PvPegkOZugwnQl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a0exR-PvPegkOZugwnQl-3" target="a0exR-PvPegkOZugwnQl-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="42" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0exR-PvPegkOZugwnQl-5" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0exR-PvPegkOZugwnQl-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="216.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0exR-PvPegkOZugwnQl-10" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="233" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0exR-PvPegkOZugwnQl-13" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1.75" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
