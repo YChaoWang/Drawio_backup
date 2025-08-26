@@ -326,11 +326,6 @@
         <mxCell id="yi97QBkPcgfnv5_pb4rW-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="yi97QBkPcgfnv5_pb4rW-167" source="yi97QBkPcgfnv5_pb4rW-35" target="yi97QBkPcgfnv5_pb4rW-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yi97QBkPcgfnv5_pb4rW-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="yi97QBkPcgfnv5_pb4rW-167" source="yi97QBkPcgfnv5_pb4rW-35" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="219.9752941176473" y="333.2485481488213" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="yi97QBkPcgfnv5_pb4rW-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="yi97QBkPcgfnv5_pb4rW-167" source="yi97QBkPcgfnv5_pb4rW-46" target="yi97QBkPcgfnv5_pb4rW-187" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="219.85764705882343" y="463.51" as="targetPoint" />
@@ -348,6 +343,9 @@
           <mxGeometry x="329.94000000000005" y="277.6299999999999" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yi97QBkPcgfnv5_pb4rW-182" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="yi97QBkPcgfnv5_pb4rW-167" source="yi97QBkPcgfnv5_pb4rW-35" target="yi97QBkPcgfnv5_pb4rW-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GmGl-XKLhvotcGD7YV6o-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yi97QBkPcgfnv5_pb4rW-167" source="yi97QBkPcgfnv5_pb4rW-35" target="GmGl-XKLhvotcGD7YV6o-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yi97QBkPcgfnv5_pb4rW-35" value="Create Dataset Group" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="yi97QBkPcgfnv5_pb4rW-167" vertex="1">
@@ -420,6 +418,9 @@
         </mxCell>
         <mxCell id="yi97QBkPcgfnv5_pb4rW-78" value="&lt;font face=&quot;Amazon Ember, Helvetica Neue, Roboto, Arial, sans-serif&quot; color=&quot;#656871&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;AWS S3&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="yi97QBkPcgfnv5_pb4rW-167" vertex="1">
           <mxGeometry x="536.05" y="35.50999999999999" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GmGl-XKLhvotcGD7YV6o-22" value="w" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/data/model.svg;" vertex="1" parent="yi97QBkPcgfnv5_pb4rW-167">
+          <mxGeometry x="189.94000000000005" y="345.5099999999999" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yi97QBkPcgfnv5_pb4rW-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yi97QBkPcgfnv5_pb4rW-59" target="yi97QBkPcgfnv5_pb4rW-88" edge="1">
           <mxGeometry relative="1" as="geometry">
